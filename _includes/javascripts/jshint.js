@@ -11,13 +11,13 @@ if (a === 1) {
 // good
 for (key in obj) {
   if (obj.hasOwnProperty(key)) {
-  // be sure that obj[key] belongs to the object and was not inherited
-  console.log(obj[key]);
+    // be sure that obj[key] belongs to the object and was not inherited
+    console.log(obj[key]);
   }
 }
 
 // not good
-Array.prototype.count = function(value) {
+Array.prototype.count = function (value) {
   return 4;
 };
 
@@ -26,7 +26,7 @@ var x = 1;
 
 function test() {
   if (true) {
-  var x = 0;
+    var x = 0;
   }
 
   x += 1;
@@ -63,22 +63,22 @@ var a = [1, , , 2, 3];
 var nums = [];
 
 for (var i = 0; i < 10; i++) {
-  (function(i) {
-  nums[i] = function(j) {
-    return i + j;
-  };
+  (function (i) {
+    nums[i] = function (j) {
+      return i + j;
+    };
   }(i));
 }
 
 // not good
-var singleton = new function() {
+var singleton = new function () {
   var privateVar;
 
-  this.publicMethod = function() {
-  privateVar = 1;
+  this.publicMethod = function () {
+    privateVar = 1;
   };
 
-  this.publicMethod2 = function() {
-  privateVar = 2;
+  this.publicMethod2 = function () {
+    privateVar = 2;
   };
 };
