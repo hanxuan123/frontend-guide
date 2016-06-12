@@ -2,6 +2,11 @@ const fs = require('fs')
 
 const re = / {4}/g
 
+/**
+ * 把文件夹中所有的文件，改为两个空格的缩进
+ * @param  {String} dirName 要改的文件夹名字
+ * @return {}         什么也不返回
+ */
 const twoSpace = dirName => {
   let dir = fs.readdirSync(dirName)
   dir.forEach(file => {
@@ -17,6 +22,8 @@ const twoSpace = dirName => {
   console.log(`${dirName} done!`)
 }
 
-twoSpace('./_includes/')
+console.log('modified this files for use this function.')
+
+// twoSpace('./_includes/')
 
 
