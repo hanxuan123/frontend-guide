@@ -1,0 +1,8 @@
+name:          Code Guide by @NCUHOME
+description:   团队愿景：成为国内大学卓越的开发团队！
+
+include:       [".editorconfig", ".jscsrc", ".jshintrc", ".csslintrc", ".scss-lint.yml"]
+
+markdown:      rdiscount
+permalink:     pretty
+highlighter:   rouge
