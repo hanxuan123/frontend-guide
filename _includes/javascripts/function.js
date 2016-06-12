@@ -19,26 +19,26 @@ doSomething(item);
 })();
 
 // not good
-[1, 2].forEach(function x() {
+[1, 2].forEach(function x () {
   ...
 });
 
 // good
-[1, 2].forEach(function() {
+[1, 2].forEach(function () {
   ...
 });
 
 // not good
-var a = [1, 2, function a() {
+var a = [1, 2, function a () {
   ...
 }];
 
 // good
-var a = [1, 2, function() {
+var a = [1, 2, function () {
   ...
 }];
 
 // use ', ' between function parameters
-var doSomething = function(a, b, c) {
+var doSomething = function (a, b, c) {
   // do something
 };

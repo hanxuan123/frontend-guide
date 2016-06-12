@@ -11,7 +11,7 @@ var a = 2;
 // need blank line before line comment
 a++;
 
-function b() {
+function b () {
   // not need blank line when comment is first line of block
   return a;
 }
@@ -19,35 +19,35 @@ function b() {
 // need blank line after blocks
 for (var i = 0; i < 2; i++) {
   if (true) {
-  return false;
+    return false;
   }
 
   continue;
 }
 
 var obj = {
-  foo: function() {
-  return 1;
+  foo: function () {
+    return 1;
   },
 
-  bar: function() {
-  return 2;
+  bar: function () {
+    return 2;
   }
 };
 
 // not need blank line when in argument list, array, object
 func(
   2,
-  function() {
-  a++;
+  function () {
+    a++;
   },
   3
 );
 
 var foo = [
   2,
-  function() {
-  a++;
+  function () {
+    a++;
   },
   3
 ];
@@ -55,8 +55,8 @@ var foo = [
 
 var foo = {
   a: 2,
-  b: function() {
-  a++;
+  b: function () {
+    a++;
   },
   c: 3
 };

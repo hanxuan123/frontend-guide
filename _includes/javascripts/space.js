@@ -30,8 +30,8 @@ var a = ( 1+2 )*3;
 // good
 var a = (1 + 2) * 3;
 
-// no space before '(', one space before '{', one space between function parameters
-var doSomething = function(a, b, c) {
+// one space before '(', '{', one space between function parameters
+var doSomething = function (a, b, c) {
   // do something
 };
 

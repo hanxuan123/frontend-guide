@@ -33,13 +33,13 @@ try {
 }
 
 // not good
-function test()
+function test ()
 {
   ...
 }
 
 // good
-function test() {
+function test () {
   ...
 }
 
@@ -48,6 +48,6 @@ var a, foo = 7, b,
   c, bar = 8;
 
 // good
-var a,
-  foo = 7,
-  b, c, bar = 8;
+var a, b, c;
+var foo = 7;
+var bar = 8;
