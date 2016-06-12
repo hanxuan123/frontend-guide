@@ -1,20 +1,24 @@
 ## NCUHOME代码规范 
 
 ### 为什么要有团队代码规范？  
-虽然这些细节是小事，不会有体验或者性能上的优化，但是却体现了一个coder和团队的专业程度  
+虽然这些细节是小事，不会有体验或者性能上的优化，但是却体现了一个coder和团队的专业程度。  
+同时统一的代码规范，有利于后期的维护，增加阅读他人代码的便利性等。  
+
 团队愿景：成为国内大学卓越的开发团队！  
 所以不管团队有多少人，代码风格都应该师出同门！ 
 
 ### 感谢
-感谢[腾讯AlloyTeam](https://github.com/AlloyTeam/CodeGuide)的代码规范。  
-本规范根据团队实际情况，有所改编。
+感谢腾讯[AlloyTeam](https://github.com/AlloyTeam/CodeGuide)的代码规范，对我们的帮助很大。    
+规范根据团队实际情况，有所修改。
 
 ### 运行
 ubuntu安装ruby-dev
 
 使用gem安装jekyll,rouge
 
-使用jekyll build即可生成html文件
+命令行使用jekyll build即可生成html文件
+
+或者修改后上传至git。也可以自动生成静态页面。
 
 ### License
 The MIT License (MIT)
