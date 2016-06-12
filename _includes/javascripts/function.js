@@ -1,9 +1,9 @@
-// no space before '(', but one space before'{'
-var doSomething = function(item) {
+// one space before '(' and '{'
+var doSomething = function (item) {
   // do something
 };
 
-function doSomething(item) {
+function doSomething (item) {
   // do something
 }
 

@@ -4,6 +4,7 @@
 }
 .dialog {
   color: red;
+
   &:after {
   ...
   }
@@ -16,7 +17,6 @@
 
 .dialog {
   color: red;
-
   &:after {
   ...
   }

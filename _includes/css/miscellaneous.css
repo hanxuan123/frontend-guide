@@ -44,28 +44,6 @@ li {
 
 /* not good */
 .element {
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-
-  background: linear-gradient(to bottom, #fff 0, #eee 100%);
-  background: -webkit-linear-gradient(top, #fff 0, #eee 100%);
-  background: -moz-linear-gradient(top, #fff 0, #eee 100%);
-}
-
-/* good */
-.element {
-  -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-    border-radius: 3px;
-
-  background: -webkit-linear-gradient(top, #fff 0, #eee 100%);
-  background:  -moz-linear-gradient(top, #fff 0, #eee 100%);
-  background:   linear-gradient(to bottom, #fff 0, #eee 100%);
-}
-
-/* not good */
-.element {
   color: rgb(0, 0, 0);
   width: 50px;
   color: rgba(0, 0, 0, .5);
