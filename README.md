@@ -9,6 +9,13 @@
 感谢[腾讯AlloyTeam](https://github.com/AlloyTeam/CodeGuide)的代码规范。  
 本规范根据团队实际情况，有所改编。
 
+### 运行
+ubuntu安装ruby-dev
+
+使用gem安装jekyll,rouge
+
+使用jekyll build即可生成html文件
+
 ### License
 The MIT License (MIT)
 
