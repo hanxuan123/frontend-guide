@@ -1,22 +1,19 @@
 #toTop {
-    display: none;
-
-    position: fixed;
-    right: 5px;
-    bottom: 5px;
-
-    width: 128px;
-    height: 128px;
-
-    background-image: url("../images/up.png");
-    background-repeat: no-repeat;
-
-    opacity: .4;
-
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  display: none;
+  width: 128px;
+  height: 128px;
+  opacity: .4;
+  background-image: url('../images/up.png');
+  background-repeat: no-repeat;
+  filter: alpha(opacity=40);
+  /* For IE8 and earlier */
 }
-#toTop:hover {
-    opacity: .8;
 
-    filter: alpha(opacity=80); /* For IE8 and earlier */
+#toTop:hover {
+  opacity: .8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
 }
