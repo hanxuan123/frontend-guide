@@ -15,10 +15,10 @@
 4. 重写页面生成器，从Ruby搬迁至Node
 
 ## 使用：
-下载本目录下的.eslintrc，放入项目根目录。  
+下载本目录下的.eslintrc，放入项目根目录。   
 
 ## 配置eslint
-电脑安装Node.js。
+电脑安装Node.js。  
 Sublime Text 安装 **Sublime​Linter** 插件,和 **Sublime​Linter-contrib-eslint** 。  
 
 ## 代码格式化（修改老代码）
@@ -98,12 +98,12 @@ Sublime Text 安装 **String​Utilities** 插件。
 最后根据eslint的提示，对修改不当的地方，进行修补。
 
 ##　注释后加空格
-错误：　//这是注释
-正确：　// 这是注释
+错误：　//这是注释  
+正确：　// 这是注释  
 
 修改方式：
-Sublime Text选中　//，按 alt+f3选择所有//。移动光标，加入空格。　　
-即完成了对文档中所有注释的修改。
+Sublime Text选中　//，按 alt+f3选择所有//。移动光标，加入空格。  　　
+即完成了对文档中所有注释的修改。  
 
 ### 运行
 ubuntu安装ruby-dev
