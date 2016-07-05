@@ -1,3 +1,4 @@
+module.exports = {
   "parserOptions": {
     "ecmaVersion": 6,
     "ecmaFeatures": {
@@ -33,7 +34,7 @@
     "eol-last": 2,
     "eqeqeq": [2, "allow-null"],
     "generator-star-spacing": [2, { "before": true, "after": true }],
-    "handle-callback-err": [2, "^(err|error)$" ],
+    "handle-callback-err": [2, "^(err|error)$"],
     "indent": [2, 2, { "SwitchCase": 1 }],
     "jsx-quotes": [2, "prefer-single"],
     "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
@@ -115,7 +116,7 @@
     "one-var": [2, { "initialized": "never" }],
     "operator-linebreak": [2, "after", { "overrides": { "?": "before", ":": "before" } }],
     "padded-blocks": [2, "never"],
-    "quotes": [2, "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+    "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "semi": [2, "never"],
     "semi-spacing": [2, { "before": false, "after": true }],
     "space-before-blocks": [2, "always"],
@@ -139,3 +140,4 @@
     }],
     'array-bracket-spacing': [2, 'never']
   }
+}
